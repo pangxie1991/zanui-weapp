@@ -1,0 +1,6 @@
+{
+  "publicComponents": {
+    "zan-actionsheet": "components/hello-component"
+  },
+  "main": "index.js"
+}

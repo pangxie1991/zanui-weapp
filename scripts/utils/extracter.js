@@ -5,7 +5,9 @@ require('shelljs/global');
 
 module.exports = function (config = {}) {
   // 清空 dist 目录
-  fs.emptyDirSync(config.dist);
+  if (!config.skipClear) {
+    fs.emptyDirSync(config.dist);
+  }
 
   extracter(config);
 
