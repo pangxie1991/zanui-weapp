@@ -1,6 +1,4 @@
-var Zan = require('../../dist/index');
-
-Page(Object.assign({}, Zan.Switch, {
+Page({
   data: {
     sync: {
       checked: false
@@ -28,4 +26,4 @@ Page(Object.assign({}, Zan.Switch, {
       });
     }, 500);
   }
-}));
+});

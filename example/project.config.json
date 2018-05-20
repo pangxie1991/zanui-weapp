@@ -1,0 +1,176 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.0",
+	"appid": "wx4d174ba077f81fa3",
+	"projectname": "ZanUI-WeApp",
+	"svr": "",
+	"client": "",
+	"qcloudRoot": "",
+	"miniprogramRoot": "",
+	"pluginRoot": "",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "layout",
+					"pathName": "pages/layout/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "pages/icon/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "capsule",
+					"pathName": "pages/capsule/index",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "cell",
+					"pathName": "pages/cell/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tag",
+					"pathName": "pages/tag/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "field",
+					"pathName": "pages/field/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "popup",
+					"pathName": "pages/popup/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dialog",
+					"pathName": "pages/dialog/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tab",
+					"pathName": "pages/tab/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "helper",
+					"pathName": "pages/helper/index",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "btn",
+					"pathName": "pages/btn/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loadmore",
+					"pathName": "pages/loadmore/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "actionsheet",
+					"pathName": "pages/actionsheet/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "badge",
+					"pathName": "pages/badge/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "toast",
+					"pathName": "pages/toast/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "noticebar",
+					"pathName": "pages/noticebar/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "card",
+					"pathName": "pages/card/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "select",
+					"pathName": "pages/select/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "picker",
+					"pathName": "pages/datetime/index",
+					"query": ""
+				}
+			]
+		}
+	}
+}
