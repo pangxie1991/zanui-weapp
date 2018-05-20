@@ -1,0 +1,31 @@
+{
+  "publicComponents": {
+    "zan-actionsheet": "actionsheet/index",
+    "zan-toptips": "toptips/index",
+    "zan-badge": "badge/index",
+    "zan-button": "btn/index",
+    "zan-button-group": "btn-group/index",
+    "zan-capsule": "capsule/index",
+    "zan-card": "card/index",
+    "zan-cell": "cell/index",
+    "zan-cell-group": "cell-group/index",
+    "zan-col": "col/index",
+    "zan-datetime-picker": "datetime-picker/index",
+    "zan-dialog": "dialog/index",
+    "zan-field": "field/index",
+    "zan-icon": "icon/index",
+    "zan-loading": "loading/index",
+    "zan-noticebar": "noticebar/index",
+    "zan-panel": "panel/index",
+    "zan-popup": "popup/index",
+    "zan-row": "row/index",
+    "zan-select": "select/index",
+    "zan-stepper": "stepper/index",
+    "zan-steps": "steps/index",
+    "zan-switch": "switch/index",
+    "zan-tab": "tab/index",
+    "zan-tag": "tag/index",
+    "zan-toast": "toast/index"
+  },
+  "main": "index.js"
+}

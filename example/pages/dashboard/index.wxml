@@ -8,9 +8,9 @@
         <zan-cell
           wx:for="{{ group.content }}"
           wx:key="name"
-          is-link
-          url="{{ item.path }}"
           title="{{ item.name }}"
+          bind:tap="handleCellTap"
+          data-url="{{ item.path }}"
         ></zan-cell>
       </zan-cell-group>
     </zan-panel>

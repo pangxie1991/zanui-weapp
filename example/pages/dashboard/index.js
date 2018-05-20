@@ -5,10 +5,12 @@ Page({
     list: componentsConfig
   },
 
-  onLoad: function () {
+  handleCellTap({ target = {}}) {
+    const { dataset = {} } = target;
+    const { url = '' } = dataset;
 
-  },
-
-  onShow: function() {
-  },
-})
+    wx.navigateTo({
+      url
+    });
+  }
+});
