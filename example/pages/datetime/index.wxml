@@ -2,7 +2,7 @@
   <zan-panel class="picker-panel-demo">
     <zan-cell-group>
       <zan-cell title="选择时间">
-        <zan-date-picker
+        <zan-datetime-picker
           native
           slot="footer"
           bindchange="change"  
@@ -12,7 +12,7 @@
       </zan-cell>
 
       <zan-cell title="选择时间">
-        <zan-date-picker
+        <zan-datetime-picker
           slot="footer"
           bindchange="change"  
           bindcancel="cancel"
@@ -21,7 +21,7 @@
       </zan-cell>
 
       <zan-cell title="选择时间">
-        <zan-date-picker
+        <zan-datetime-picker
           slot="footer"
           not-use="{{['years', 'seconds']}}"
           bindchange="change"  
@@ -31,7 +31,7 @@
       </zan-cell>
 
       <zan-cell title="选择时间">
-        <zan-date-picker
+        <zan-datetime-picker
           slot="footer"
           bindchange="change"  
           bindcancel="cancel"
@@ -45,7 +45,7 @@
 
   <zan-panel class="picker-panel-demo">
     <zan-cell title="选择时间" value="{{pickerView1 || '自定义组件'}}"></zan-cell>
-    <zan-date-picker
+    <zan-datetime-picker
       picker-view
       bindchange="customChange"  
       bindcancel="cancel"
@@ -56,7 +56,7 @@
 
   <zan-panel class="picker-panel-demo">
     <zan-cell title="选择时间" value="{{ pickerView2 || '原生组件'}}"></zan-cell>
-    <zan-date-picker
+    <zan-datetime-picker
       native
       picker-view   
       bindchange="nativeChange"

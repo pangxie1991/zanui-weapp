@@ -1,5 +1,3 @@
-<import src="/dist/toast/index.wxml" />
-
 <view class="container">
 
   <view class="doc-title zan-hairline--bottom">TOAST</view>
